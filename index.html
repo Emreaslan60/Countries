@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .btn-div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #button{
+            font-size: 1.5rem;
+            padding: 0.8rem 1rem;
+            border-radius: 1.5rem;
+        }
+        .container{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            align-items: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="btn-div">
+        <button id="button">ülkeleri göster</button>
+    </div>
+    <h1 style="text-align: center;" class="total-pop"></h1 >
+
+    <div class="container ">
+
+
+    </div>
+
+
+    <script src="./data.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
